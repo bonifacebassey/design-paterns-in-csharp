@@ -2,7 +2,6 @@
 /*-------------------------------------------*/
 
 // Solution 1 : counting in reverse order until the desired byte is encountered
-
 byte[] Decode(byte[] inArray, byte valueToRemove)
 {
     var len = inArray.Length - 1;
@@ -38,7 +37,6 @@ byte[] TrimTailingZeros(byte[] array, byte valueToRemove)
 }
 
 
-Console.Write($"Array with trailing zeros: ");
 byte[] arr = { 1, 2, 3, 0, 0, 0, };
 arr.ToList().ForEach(element => Console.Write($"{element} "));
 
